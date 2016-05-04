@@ -1,16 +1,20 @@
 {
-  "name": "test",
-  "version": "0.0.0",
-  "description": "",
+  "name": "commonservice",
   "main": "commonService.js",
+  "homepage": "https://github.com/shikhasharma121/commonService",
+  "authors": [
+    "shikhasharma121 <shikha_bhardwaj121@yahoo.com>"
+  ],
+  "description": "",
   "license": "MIT",
-  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
-    "components"
+    "bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
-    "angular": "~1.4.9"
+    "test": "shikhasharma121/commonService"
   }
 }
