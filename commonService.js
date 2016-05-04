@@ -1,12 +1,12 @@
 (function () {
     'use strict';
 
-    angular.module('common').service('commonServices', [
+    angular.module('common', []).service('commonServices', [
             '$q', '$http', '$location', 'SERVERCONFIG', 'localStorageService',
             commonServices
     ]);
 
-    function commonService($q, $http, $location, SERVERCONFIG, localStorageService) {
+    function commonServices($q, $http, $location, SERVERCONFIG, localStorageService) {
         
         return {
             getLocalStorage: function (name) {
