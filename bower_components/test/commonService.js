@@ -1,9 +1,9 @@
 (function () {
     'use strict';
 
-    angular.module('common').service('commonServices', [
+    angular.module('attachmentApp').service('commonService', [
             '$q', '$http', '$location', 'SERVERCONFIG', 'localStorageService',
-            commonServices
+            commonService
     ]);
 
     function commonService($q, $http, $location, SERVERCONFIG, localStorageService) {

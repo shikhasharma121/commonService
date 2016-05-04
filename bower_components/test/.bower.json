@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "description": "",
+  "main": "commonService.js",
+  "license": "MIT",
+  "homepage": "https://github.com/shikhasharma121/commonService",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "angular": "~1.4.9"
+  },
+  "_release": "759389820a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "759389820a12cf55deaf5f21440b044a7b447c0b"
+  },
+  "_source": "git://github.com/shikhasharma121/commonService.git",
+  "_target": "*",
+  "_originalSource": "shikhasharma121/commonService",
+  "_direct": true
+}
