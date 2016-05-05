@@ -33,10 +33,25 @@
                 return localStorageService.get('FolderName');
             },
 
-            getSession: function () {
-                    return localStorageService.get('SessionId');
+            // getSession: function () {
+            //         return localStorageService.get('SessionId');
+            // },
+            
+            getCurrentDSN: function() {
+                return localStorageService.get('currentDSN');
             },
-
+            
+            getSession: function() {
+                if (angular.isDefined(localStorageService.get('SessionId'))) {
+                    return localStorageService.get('SessionId');
+                } else {
+                    return localStorageService.get('session');
+                }
+            },      
+            
+            getServerConfig: function() {
+                return SERVERCONFIG;
+            },
             commonDetails: function (methodType, urls, reqdata) {
                 var deferred = $q.defer();
                 var session = this.getSession();
